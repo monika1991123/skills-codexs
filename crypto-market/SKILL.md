@@ -1,6 +1,6 @@
 ---
 name: crypto-market
-description: Use installed crypto market tooling for general market research, trend checks, and historical price analysis. Activate when the user asks for crypto prices, market analysis, exchange comparison, or historical trends.
+description: Use for broad, exchange-neutral crypto market research, historical trends, and cross-exchange comparisons when no specific exchange or account API is required. Use the named exchange's market skill for exchange-local data.
 ---
 
 # Crypto Market Research

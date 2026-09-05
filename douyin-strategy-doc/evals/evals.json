@@ -1,0 +1,17 @@
+{
+  "skill_name": "douyin-strategy-doc",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我看这个抖音交易策略视频并整理成详细的 Markdown：https://v.douyin.com/example/",
+      "expected_output": "生成中文策略文档，区分视频事实、推导和未披露参数，并记录来源。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "把这个 B 站里的期货方法整理成可回测规则：https://www.bilibili.com/video/BV1AmJG6tERv",
+      "expected_output": "下载或读取视频，核对音频和画面，输出含资金口径与回测要求的 Markdown。",
+      "files": []
+    }
+  ]
+}

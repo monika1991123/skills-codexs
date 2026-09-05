@@ -1,23 +1,21 @@
 ---
 name: data-scraper-agent
-description: Build a fully automated AI-powered data collection agent for any public source — job boards, prices, news, GitHub, sports, anything. Scrapes on a schedule, enriches data with a free LLM (Gemini Flash), stores results in Notion/Sheets/Supabase, and learns from user feedback. Runs 100% free on GitHub Actions. Use when the user wants to monitor, collect, or track any public data automatically.
+description: Use when the user explicitly wants a new scheduled public-data collection system using this skill's Python + Gemini enrichment + GitHub Actions + external storage workflow. Do not use for a one-off scrape, an existing monitor, or a project with an established stack.
 origin: community
 ---
 
 # Data Scraper Agent
 
-Build a production-ready, AI-powered data collection agent for any public data source.
-Runs on a schedule, enriches results with a free LLM, stores to a database, and improves over time.
+Build the scheduled, AI-enriched collection system described by this skill when
+the user chooses its Python, Gemini, GitHub Actions, and external-storage stack.
 
 **Stack: Python · Gemini Flash (free) · GitHub Actions (free) · Notion / Sheets / Supabase**
 
 ## When to Activate
 
-- User wants to scrape or monitor any public website or API
-- User says "build a bot that checks...", "monitor X for me", "collect data from..."
-- User wants to track jobs, prices, news, repos, sports scores, events, listings
-- User asks how to automate data collection without paying for hosting
-- User wants an agent that gets smarter over time based on their decisions
+- User explicitly chooses this stack for a new scheduled collector
+- User wants the bundled Gemini enrichment, GitHub Actions schedule, and Notion/Sheets/Supabase storage
+- Do not activate for one-off extraction, an existing monitor, or a project with an established stack
 
 ## Core Concepts
 
